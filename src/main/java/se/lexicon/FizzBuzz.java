@@ -1,0 +1,21 @@
+package se.lexicon;
+//Exercise 11- FizzBuzz
+public class FizzBuzz {
+    void main() {
+
+        for (int i = 1; i <= 30; i++) {
+            if(i%3==0 && i%5==0 ){
+                IO.println("FizzBuzz");
+            }
+            else if(i%3==0){
+                IO.println("Fizz");
+            }
+            else if(i%5==0){
+                IO.println("Buzz");
+            }
+            else {
+                IO.println(i);
+            }
+        }
+    }
+}
