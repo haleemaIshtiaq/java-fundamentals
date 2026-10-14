@@ -12,7 +12,7 @@ public class TodayCalendar {
         String formattedTime = today.format(formatter);
         IO.println("Today is: " + formattedTime);
 
-        if(today.getDayOfWeek().getValue()>6){
+        if(today.getDayOfWeek().getValue()>=6){
             IO.println("It is a Weekend.");
         }
         else{
